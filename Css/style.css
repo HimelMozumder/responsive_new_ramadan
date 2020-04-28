@@ -1,0 +1,455 @@
+
+
+/* BASIC SETUP*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clearfix{
+    width: 100%;
+    float: left;
+}
+/* HEADING */
+
+.btn{
+    text-decoration: none;
+    background: #f69165;
+    transition: .6s ease-in-out;
+     color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/*topbar*/
+.top-bar{
+    padding: 20px 0;
+}
+.top-bar .logo{
+    width: 220px;
+}
+.top-bar .icon{
+    color: #f69165;
+    transform: scale(2)
+}
+.top-bar h4{
+    margin: 0;
+    font-size: 15px;
+}
+.top-bar h6{
+    color: #a0a0a0;
+}
+
+/*navbar*/
+.my-nav{
+    background: #00cce1;
+    color: #fff;
+}
+.my-nav ul li{
+    margin-right: 15px;
+}
+.my-nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .6s;
+}
+.my-nav ul li a:hover{
+    color: #f69165;
+}
+.btn-nav{
+    padding: 20px 50px;
+    background: #f69165;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+}
+.nav-left-side{
+    text-align: right;
+}
+.hero-section .slider-one{
+    background-image: url(../Images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.hero-section .slider-one .slider-content{
+    padding-top: 200px;
+    padding-bottom: 180px;
+}
+.hero-section .slider-one .slider-content h1,h2{
+    background: #00cce1;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+.hero-section .slider-one .slider-content h2{
+    background: #f69165;
+    margin: 10px 0;
+}
+.hero-section .slider-one .slider-content p{
+    font-size: 16px;
+}
+.hero-section .slider-one .slider-content .btn-box{
+    margin-top: 25px;
+}
+.hero-section .slider-one .slider-content .btn-box .btn{
+    border-radius: 0px;
+    padding: 12px 35px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.hero-section .slider-one .slider-content .btn-box .right-btn{
+    background: #00cce1;
+}
+section{
+    padding: 80px 0;
+}
+.second-section{
+    text-align: left;
+}
+.second-section .right-side{
+    margin-left: -100px;
+}
+.second-section .dr-img{
+    margin-left: -150px;
+}
+.second-section .right-side h3{
+    font-weight: 600;
+}
+.second-section .right-side .icon-box{
+    margin-top: 20px;
+}
+.second-section .right-side .icon-box h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/*third section*/
+.third-section{
+    background: #f9f9f9;
+}
+
+.third-section .doctor-images{
+    margin-top: 40px;
+}
+.third-section .doctor-images h5{
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.third-section .doctor-images p{
+    margin-bottom: 10px;
+}
+.third-section .doctor-images .img-box-top{
+    position: relative;
+}
+.third-section .doctor-images .img-box-top .hover-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(7, 5, 5, 0.68);
+    color: #fff;
+    transition: .6s;
+    transform: scale(0);
+
+}
+.third-section .doctor-images .img-box-top:hover .hover-content{
+    transform: scale(1);
+}
+
+.third-section .doctor-images .img-box-top .hover-content ul{
+   padding :80px;
+}
+.third-section .doctor-images .img-box-top .hover-content ul li{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+   transition: .6s;
+    line-height: 3;
+    border: 1px solid #fff;
+}
+.third-section .doctor-images .img-box-top .hover-content ul li:hover{
+    background: #f69165;
+    border: 1px solid transparent;
+}
+.third-section .doctor-images .img-box-top .hover-content ul li a{
+    color: #fff;
+}
+.third-section .doctor-images .img-box-bottom{
+    border-bottom: 5px solid #00cce1;
+    transition: .6s;
+    background: #fff;
+    padding-top: 5px;
+}
+
+.third-section .doctor-images .img-box-bottom:hover h5{
+    color: #f69165;
+}
+
+.third-section .doctor-images .img-box-bottom:hover p{
+      color: #f69165;
+    
+}
+.third-section .doctor-images .img-box-bottom:hover{
+     border-bottom: 5px solid #f69165;
+}
+
+
+
+
+/*fourth section*/
+.fourth-section{
+    text-align: center;
+}
+.fourth-section h3{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 28px;
+}
+.fourth-section span img{
+    margin-bottom: 10px;
+}
+.fourth-section p{
+    
+}
+
+
+.fourth-section .services{
+    margin-top: 40px;
+    text-align: left;
+}
+
+
+.fourth-section .card{
+    border: 5px solid #ebebeb;
+    transition: .6s;
+    border-radius: 0px;
+}
+.fourth-section .card:hover{
+     border: 5px solid #f69165;
+}
+
+
+.fourth-section .card h4{
+    font-size: 22px;
+    font-weight: 700;
+    transition: .6s;
+    margin-left: 5px;
+}
+.fourth-section .card  .btn{
+    background: transparent;
+    color: #838383;
+    font-weight: 600;
+}
+.fourth-section .card:hover .btn{
+    color: #f69165;
+}
+
+.fourth-section .card:hover h4{
+     color: #f69165;
+}
+
+
+/*price-section*/
+
+.price-section{
+    background: #f9f9f9;
+    text-align: center;
+}
+.price-section p{
+    margin: 10px 0;
+}
+.price-section .card{
+    background: #f9f9f9;
+    border: 5px solid #fff;
+    transition: .6s;
+}
+.price-section h3{
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 600;
+}
+.pricing-chat{
+    margin-top: 30px;
+}
+.pricing-chat h4{
+    font-size: 20px;
+    color: #00cce1;
+    font-weight: 700;
+}
+.pricing-chat p{
+    padding: 0px 10px;
+}
+.pricing-chat .card-body{
+    padding: 15px 0;
+}
+.pricing-chat .price{
+    background: #fff;
+    padding: 15px;
+    color: #00cce1;
+    font-weight: 700;
+    font-size: 26px;
+    transition: .6s;
+}
+.pricing-chat .price span:last-child{
+    font-size: 18px;
+}
+.pricing-chat ul li{
+    padding: 5px 0;
+}
+.pricing-chat ul li:first-child{
+    padding-top: 15px;
+}
+.pricing-chat .btn{
+    background: #00cce1;
+    margin: 15px 0;
+}
+
+.price-section .card:hover{
+    border-color: #f69165;
+}
+
+.price-section .card:hover h4{
+    color: #f69165;
+}
+.price-section .card:hover .price{
+    background: #f69165;
+}
+.price-section .card:hover .btn{
+    background: #f69165;
+}
+
+.price-section .card:hover .price{
+    color: #fff;
+}
+
+
+/*client-section*/
+
+.client-section{
+    background-image: url(../Images/test-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    background-position: 100% 100%;
+}
+.client-section p{
+    margin: 15px 0;
+}
+.client-section h3{
+    text-transform: capitalize;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.happy-company{
+    margin-top: 45px;
+}
+.contact-us{
+    background: #1b1b1b;
+    color: #fff;
+}
+.contact-us p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #b4b4b4;
+}
+.contact-us .white-logo{
+    margin-bottom: 25px;
+}
+.contact-us .fa {
+    color: #00cce1;
+    transform: scale(1.5);
+}
+.contact-us .left li{
+    margin-bottom: 15px;
+}
+.contact-us ul li p{
+    margin: 5px 0;;
+    margin-left: 10px;
+}
+.contact-us h3{
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.contact-us .middle img{
+    margin-bottom: 10px;
+}
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form .form-contorl{
+    background: transparent;
+    border: 2px solid #3b3b3b;
+    height: 40px;
+    color: #fff;
+    padding: 15px;
+}
+
+::placeholder{
+    font-size: 12px;
+}
+.contact-form .btn{
+    height: 40px;
+    border-radius: 0px;
+}
+
+.social-link {
+    margin-top: 30px;
+}
+
+.social-link  h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.social-link ul li{
+        display: inline-block;
+        height: 45px;width: 45px;
+        background: #323232;
+        padding: 10px;
+        background: #323232;
+        transition: .6s;
+}
+.social-link ul li:hover{
+    background-color: #f69165;
+}
+.social-link ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+footer{
+    padding: 30px 0;
+    text-align: center;
+    background: #161616;
+    color: #fff;
+}
+footer p{
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+
+

@@ -1,0 +1,124 @@
+@media (min-width:0px) and (max-width:380px){
+    body{
+        font-size: 80%;
+    }
+    .top-bar .logo{
+        width: 180px;
+    }
+    .btn-nav{
+    padding: 20px 20px;
+        font-size: 12px;
+    }
+    .hero-section .slider-one .slider-content{
+        padding: 100px 0;
+    }
+    .hero-section .slider-one .slider-content h1,h2{
+        font-size: 30px;
+        padding: 8px;
+    }
+    .hero-section .slider-one .slider-content .btn-box .btn{
+        margin-bottom: 20px;
+    }
+    .hero-section .slider-one .slider-content p{
+    font-size: 14px;
+    }
+    section{
+        padding: 25px 0;
+    }
+    .second-section{
+    text-align: center;
+    }
+    .second-section .right-side{
+        margin: 0;
+    }
+     .second-section .dr-img{
+        margin: 0;
+         margin-bottom: 15px;
+    }
+    .second-section .right-side h3{
+        font-size: 22px;
+    }
+    .client-section{
+        background-position: center;
+    }
+    .client-section h3{
+        font-size: 24px;
+    }
+    .contact-us h3{
+        padding-top: 8px;
+        border-top: 2px solid #ccc;
+    }
+}
+
+
+@media (min-width:380px) and (max-width:575px){
+    .nav-left-side{
+        text-align: center
+    }
+    .hero-section .slider-one .slider-content{
+        padding: 100px 0;
+    }
+    .hero-section .slider-one{
+        background-position: center center;
+    }
+    .hero-section .slider-one .slider-content h1,h2{
+        font-size: 30px;
+        padding: 8px;
+    }
+    .hero-section .slider-one .slider-content .btn-box .btn{
+        margin-right: 0px;
+        
+    }
+    .second-section .right-side{
+        margin: 0;
+    }
+    .second-section .dr-img{
+        margin: 0;
+    }
+    .second-section .right-side h3{
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .second-section{
+        text-align: center;
+    }
+    section{
+        padding: 25px 0;
+    }
+    .client-section{
+        text-align: center;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+     .hero-section .slider-one{
+        background-position: 90% 100%;
+    }
+      .second-section .right-side{
+        margin: 0;
+    }
+    .second-section .dr-img{
+        margin: 0;
+        margin-bottom: 25px;
+        border-bottom: 5px solid #f69165;
+    }
+    .second-section{
+        text-align: center;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .social-link ul li{
+        margin-bottom: 8px;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .second-section .right-side{
+        margin: 0;
+    }
+     .second-section .dr-img{
+        margin: 0;
+         margin-top: 150px;
+    }
+}
